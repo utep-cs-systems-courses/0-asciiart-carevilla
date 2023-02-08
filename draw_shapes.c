@@ -26,3 +26,20 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+//Prints an arrow
+void print_arrow(int leftCol , int size) {
+  printf("under construction...\n");
+  int i, j;
+  int temp = 0;
+  print_triangle(5,5);
+  // print_square(5,5);
+  while (temp < size) {
+  for (i=0; i<size+3; i++) putchar(' ');
+  for (j=0; j<size; j++) putchar('*');
+  printf("\n");
+  temp++;
+  }
+  printf("\n");
+  
+  return;
+}
